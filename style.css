@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.Radio{
+	border: 1px solid #FFFFFF;
+	width:330px;
+	justify-content: center;
+	display: flex;	
+}
+body{
+	background: #bf9168;
+	color: #CCCCCC;
+}
+header{
+	display: flex;
+	justify-content: center;
+}
+.logo, .Menu{
+	margin-right: 17px;
+	display: inline-block;
+	vertical-align: middle;
+	border: 1px solid #FFFFFF;
+}
+.Menu li{
+	margin-right: 17px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.Menu a{
+	vertical-align: middle;
+	font-family: arial;
+	font-size: 17px;
+	color: #FFFFFF;
+	text-decoration none;
+}
+.Menu a:hover{
+	color: #00FFFF;
+}
+.logo h1{
+	font-family: arial;
+	font-size: 17px;
+	color: #FFFFFF;
+}
